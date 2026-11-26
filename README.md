@@ -20,8 +20,24 @@ công cụ tính giá lăn bánh / trả góp và đặt lịch lái thử.
 ## 📅 Tiến độ
 | Tuần | Nội dung | Trạng thái |
 |---|---|---|
-| 1 | Khởi tạo dự án, thiết kế, giao diện tĩnh | 🔄 Đang làm |
+| 1 | Khởi tạo dự án, thiết kế, giao diện tĩnh | 🔄 Đang làm (server + client đã chạy)|
 
 ## 👤 Tác giả
-- Sinh viên: (Họ tên của em) – (MSSV)
+- Sinh viên: (Nguyễn Quang Minh) – (MSSV: GCH221127)
 - Giảng viên hướng dẫn: (Tên thầy/cô)
+
+🚀 Hướng dẫn chạy dự án
+
+Server
+
+cd server
+npm install
+# Tạo file .env theo mẫu .env.example
+npm run dev
+
+Client
+
+cd client
+npm install
+npm run dev
+Mở http://localhost:5173
